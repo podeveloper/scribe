@@ -31,8 +31,8 @@ paths:
       security: []
   /api/products:
     get:
-      summary: 'Display a listing of the resource.'
-      operationId: displayAListingOfTheResource
+      summary: 'GET Products.'
+      operationId: gETProducts
       description: ''
       parameters: []
       responses:
@@ -178,8 +178,8 @@ paths:
         - Endpoints
       security: []
     post:
-      summary: 'Store a newly created resource in storage.'
-      operationId: storeANewlyCreatedResourceInStorage
+      summary: 'STORE a new product.'
+      operationId: sTOREANewProduct
       description: ''
       parameters: []
       responses: {  }
@@ -188,8 +188,8 @@ paths:
       security: []
   '/api/products/{id}':
     get:
-      summary: 'Display the specified resource.'
-      operationId: displayTheSpecifiedResource
+      summary: 'SHOW the product'
+      operationId: sHOWTheProduct
       description: ''
       parameters: []
       responses:
@@ -204,8 +204,8 @@ paths:
         - Endpoints
       security: []
     put:
-      summary: 'Update the specified resource in storage.'
-      operationId: updateTheSpecifiedResourceInStorage
+      summary: 'UPDATE the product'
+      operationId: uPDATETheProduct
       description: ''
       parameters: []
       responses: {  }
@@ -213,8 +213,8 @@ paths:
         - Endpoints
       security: []
     delete:
-      summary: 'Remove the specified resource from storage.'
-      operationId: removeTheSpecifiedResourceFromStorage
+      summary: 'DELETE the product'
+      operationId: dELETETheProduct
       description: ''
       parameters: []
       responses: {  }

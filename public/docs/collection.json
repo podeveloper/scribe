@@ -10,7 +10,7 @@
     ],
     "info": {
         "name": "Laravel",
-        "_postman_id": "4d6f72f2-8f25-4c4e-95b6-cd9d4d620868",
+        "_postman_id": "dd0630b4-0e67-4b28-8c51-59a982bff39e",
         "description": "",
         "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
     },
@@ -68,7 +68,7 @@
                     ]
                 },
                 {
-                    "name": "Display a listing of the resource.",
+                    "name": "GET Products.",
                     "request": {
                         "url": {
                             "host": "{{baseUrl}}",
@@ -124,7 +124,7 @@
                     ]
                 },
                 {
-                    "name": "Store a newly created resource in storage.",
+                    "name": "STORE a new product.",
                     "request": {
                         "url": {
                             "host": "{{baseUrl}}",
@@ -152,7 +152,7 @@
                     "response": []
                 },
                 {
-                    "name": "Display the specified resource.",
+                    "name": "SHOW the product",
                     "request": {
                         "url": {
                             "host": "{{baseUrl}}",
@@ -216,7 +216,7 @@
                     ]
                 },
                 {
-                    "name": "Update the specified resource in storage.",
+                    "name": "UPDATE the product",
                     "request": {
                         "url": {
                             "host": "{{baseUrl}}",
@@ -252,7 +252,7 @@
                     "response": []
                 },
                 {
-                    "name": "Remove the specified resource from storage.",
+                    "name": "DELETE the product",
                     "request": {
                         "url": {
                             "host": "{{baseUrl}}",

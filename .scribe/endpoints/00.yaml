@@ -49,7 +49,7 @@ endpoints:
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'Display a listing of the resource.'
+      title: 'GET Products.'
       description: ''
       authenticated: false
       custom: []
@@ -90,7 +90,7 @@ endpoints:
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'Store a newly created resource in storage.'
+      title: 'STORE a new product.'
       description: ''
       authenticated: false
       custom: []
@@ -120,7 +120,7 @@ endpoints:
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'Display the specified resource.'
+      title: 'SHOW the product'
       description: ''
       authenticated: false
       custom: []
@@ -171,7 +171,7 @@ endpoints:
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'Update the specified resource in storage.'
+      title: 'UPDATE the product'
       description: ''
       authenticated: false
       custom: []
@@ -210,7 +210,7 @@ endpoints:
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'Remove the specified resource from storage.'
+      title: 'DELETE the product'
       description: ''
       authenticated: false
       custom: []
