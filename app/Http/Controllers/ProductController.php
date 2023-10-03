@@ -8,6 +8,9 @@ use App\Http\Requests\StoreProductRequest;
 use App\Http\Requests\UpdateProductRequest;
 use Illuminate\Http\Resources\Json\JsonResource;
 
+/**
+* @group Products
+*/
 class ProductController extends Controller
 {
     /**
