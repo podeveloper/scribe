@@ -10,7 +10,7 @@
     ],
     "info": {
         "name": "Laravel",
-        "_postman_id": "dd0630b4-0e67-4b28-8c51-59a982bff39e",
+        "_postman_id": "f43b2b12-da18-4521-b812-f5dfff43f2ed",
         "description": "",
         "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
     },
@@ -66,7 +66,13 @@
                             "name": ""
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "name": "Products",
+            "description": "",
+            "item": [
                 {
                     "name": "GET Products.",
                     "request": {

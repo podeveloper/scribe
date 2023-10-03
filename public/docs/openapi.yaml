@@ -175,7 +175,7 @@ paths:
                               type: string
                               example: sit
       tags:
-        - Endpoints
+        - Products
       security: []
     post:
       summary: 'STORE a new product.'
@@ -184,7 +184,7 @@ paths:
       parameters: []
       responses: {  }
       tags:
-        - Endpoints
+        - Products
       security: []
   '/api/products/{id}':
     get:
@@ -201,7 +201,7 @@ paths:
                 type: string
                 example: ''
       tags:
-        - Endpoints
+        - Products
       security: []
     put:
       summary: 'UPDATE the product'
@@ -210,7 +210,7 @@ paths:
       parameters: []
       responses: {  }
       tags:
-        - Endpoints
+        - Products
       security: []
     delete:
       summary: 'DELETE the product'
@@ -219,7 +219,7 @@ paths:
       parameters: []
       responses: {  }
       tags:
-        - Endpoints
+        - Products
       security: []
     parameters:
       -
@@ -233,4 +233,7 @@ paths:
 tags:
   -
     name: Endpoints
+    description: ''
+  -
+    name: Products
     description: ''
